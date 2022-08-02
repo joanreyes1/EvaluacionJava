@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;fase2.servicios&apos;&#x0D;&#x0A;- Original project: &apos;fase2.servicios&apos;&#x0D;&#x0A;- Original element: &apos;com.cmc.evaluacion.fase2.servicios.App.java&apos;" description="Delete element" element1="/src\/main\/java&lt;com.cmc.evaluacion.fase2.servicios{App.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1658811078075" subPackages="false" version="1.0"/>
+</session>

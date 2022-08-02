@@ -1,0 +1,7 @@
+package com.cmc.servicios;
+
+import com.cmc.util.DatePlaca;
+
+public class AdminAuto {
+
+}

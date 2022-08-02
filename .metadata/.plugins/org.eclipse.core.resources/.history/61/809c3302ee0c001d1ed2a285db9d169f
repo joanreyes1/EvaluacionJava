@@ -1,0 +1,31 @@
+package com.cmc.evaluacion.fase2.servicios;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import com.cmc.evaluacion.fase2.commons.EvaluacionException;
+import com.cmc.evaluacion.fase2.entidades.Cartera;
+
+public class AdminClientes {
+
+	private static Logger logger = LogManager.getLogger(AdminClientes.class);
+
+	public static Cartera armarCartera(String rutaArchivo) {
+		Cartera cartera = new Cartera();
+		File file = new File(rutaArchivo);
+		try {
+			FileReader fileReader = new FileReader(file);
+			BufferedReader br = new BufferedReader(fileReader);
+		} catch (FileNotFoundException e) {
+			logger.error("No se puedo abri el archivo" + e);
+			throw new EvaluacionException("Error al abrir archivo" + e);
+		}
+
+		return null;
+	}
+}

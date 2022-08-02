@@ -1,0 +1,12 @@
+package com.cmc.servicios;
+
+import java.util.Date;
+
+import com.cmc.util.DatePlaca;
+
+public class AdminAuto {
+	DatePlaca date = new DatePlaca();
+	public void evaluacionPlaca(String placa, Date fecha){
+		
+	}
+}

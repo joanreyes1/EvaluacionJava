@@ -1,0 +1,13 @@
+package com.cmc.evaluacion.fase2.entidades;
+
+import java.util.Date;
+
+public class Prestamo {
+	private String numero;
+	private Date fecha;
+	private double monto;
+	private String tipo;
+	private String cedulaCliente;
+	
+	
+}

@@ -1,0 +1,32 @@
+package com.cmc.servicios;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class AdminAuto {
+	Date date = null;
+	SimpleDateFormat format = new SimpleDateFormat("yyyy/dd/MM HH:mm:ss");
+
+	public void evaluacionPlaca(String placa, String fechaHora) {
+		try {
+			date = format.parse(fechaHora);
+		} catch (ParseException e) {
+			System.out.println("Fecha incorrecta" + e);
+		}
+		if (date.equals(fechaHora)) {
+
+		}
+	}
+
+	public static boolean validaPlaca(String placa) {
+		placa = placa.replaceAll("[^a-zA-Z0-9]", "");
+		if (placa.length() != 7) {
+			return false;
+		}
+		if (!placa.substring(0, 3).matches("[A-Z]*")) {
+			return false;
+		}
+		return placa.substring(3).matches("[0-9]*");
+	}
+}

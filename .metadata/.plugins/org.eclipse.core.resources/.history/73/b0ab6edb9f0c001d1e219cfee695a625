@@ -1,0 +1,9 @@
+package com.cmc.evaluacion.fase2.servicios;
+
+import com.cmc.evaluacion.fase2.entidades.Cartera;
+
+public class AdminClientes {
+	public static Cartera armarCartera(String rutaArchivo){
+		
+	}
+}

@@ -1,0 +1,5 @@
+package com.cmc.commons.util;
+
+public class TipoPrestamo {
+
+}

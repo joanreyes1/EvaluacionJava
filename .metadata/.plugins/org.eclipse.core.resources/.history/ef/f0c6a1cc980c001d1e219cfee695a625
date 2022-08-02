@@ -1,0 +1,24 @@
+package com.cmc.evaluacion.fase2.entidades;
+
+import java.util.ArrayList;
+
+public class Cartera {
+	private ArrayList<Cliente> clientes;
+
+	public ArrayList<Cliente> getClientes() {
+		return clientes;
+	}
+
+	public Cliente buscarCliente(String cedula) {
+		for (Cliente cliente : clientes) {
+			if (cliente.getCedula().equals(cedula)) {
+				return cliente;
+			}
+		}
+		return null;
+	}
+
+	public void agregarCliente(Cliente cliente) {
+
+	}
+}

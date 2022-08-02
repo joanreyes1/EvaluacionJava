@@ -1,0 +1,9 @@
+package com.cmc.commons.util;
+
+public class TipoPrestamo {
+	private static final String HIPOTECARIO = "H";
+	private static final String QUIROGRAFARIO = "Q";
+	private static final String OTRO = "O";
+	
+	
+}
